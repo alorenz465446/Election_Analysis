@@ -1,60 +1,62 @@
 # Election_Analysis
-initial commit
 
-# Python_Election_Analysis
-Analysis of election resuklts using Python to read in a cvs file and provide the following deliverable:
-1. The Election Results Printed to the Command Line
-2. The Election Results Saved to a Text File
-3. A written Analysis of the Election Audit (README.md)
+## Overview of Election Audit :
 
-##Overview of Election Audit :
-
-The election commission has requested some additional data to complete the audit:
-
-*The voter turnout for each county
-
-*The percentage of votes from each county out of the total count
-
-*The county with the highest turnout
+Analysis of Colorado congressional election data using Python to read in a cvs file. Creating an audit and writing the results to a txt file.
 
 
 
 
 
 
-
-
-
-
+#### Expected Output 
 ![Expected Output](./Images/python%20election%20analysis%20results.png)
 
 
 
 
-#Resources
-* Data Source: election_results.cvs
+## Election Audit Results: 
 
-* Software: Python 3.10.5, Visual Studio Code 1.68.1
+* Total number of votes that were casted in this election.
+    - Total_Votes: 369,711
+
+* Breakdown of number of votes and percentage of total votes for each county each in the precinct.
+    - Jefferson: 10.5% (38,855)
+    - Denver: 82.8% (306,055)
+    - Arapahoe: 6.7% (24,801)
+
+* County that had the largest number of votes.
+    - Denver
+
+* Breakdown of votes and percentage of total votes for each canidate 
+    - Charles Casper Stockham: 23.0% (85,213)
+    - Diana DeGette: 73.8% (272,892)
+    - Raymon Anthony Doane: 3.1% (11,606)
+
+* Which candidate won the election with total amount of votes and winning percentage
+    - Winner: Diana DeGette
+    - Winning Vote Count: 272,892
+    - Winning Percentage: 73.8%
 
 
-##Election Audit Results: Using a bulleted list, address the following election outcomes. Use images of examples of your code if necessary to support your evidence.
-
-### speified asks
 
 
-How many total votes were cast in this congressional election?
-
-Provide a breakdown of number of votes and percentage of total votes for each county each in the precinct.
-
-Which county had the largest number of votes?
-
-Provide a breakdown of the number votes and percentage of total votes each candidate received.
-
-Which candidate won the election, what was their total number of votes and percentage of total votes?
 
 
-##Results as recorded in my elecetion_analysis.txt file
-![my analysis](./)
+ 
+#### Results as recorded in my elecetion_analysis.txt file
+![my analysis](./Images/election_analysis.txt)
 
 
 ## Election-Audit Python Code Summary:
+This code is strong and can be used throughout different states to analyze election data if given the following:
+1. a seperate csv file is needed for each election 
+2. a seperarte election analysis txt file to write down results
+3. this code does not "hard wire" the names of candidtes or counties so it can be versatile to any state
+
+
+
+### Resources
+* Data Source: election_results.cvs
+
+* Software: Python 3.10.5, Visual Studio Code 1.68.1
