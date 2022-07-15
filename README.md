@@ -57,6 +57,7 @@ This code is strong and can be used throughout different states to analyze elect
 
 
 ### Resources
-* Data Source: election_results.cvs
+* Data Source: election_results.cvs and [students_complete.csv](https://github.com/alorenz465446/Election_Analysis/files/9116945/students_complete.csv)
+
 
 * Software: Python 3.10.5, Visual Studio Code 1.68.1
